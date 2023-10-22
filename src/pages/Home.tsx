@@ -1,8 +1,7 @@
+import Pages from '../Components/Pages/Pages';
+
 function Home() {
-  return (
-    <>
-    </>
-  );
+  return <Pages />;
 }
 
 export default Home;
