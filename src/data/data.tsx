@@ -1,4 +1,4 @@
-import IHeroes from '../interface/interfase';
+import IHeroes from '../interface/interface';
 
 const heroesData: IHeroes[] = [
   {
