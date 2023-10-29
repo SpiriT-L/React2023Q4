@@ -7,7 +7,7 @@ function Main() {
   return (
     <main className={styles.main}>
       <section className={styles.section__search}>
-        <Search />
+        <Search placeholder="Input here..." />
       </section>
       <section className={styles.section__cards}>
         <CardList charters={heroesData} />

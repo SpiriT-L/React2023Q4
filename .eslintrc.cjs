@@ -20,8 +20,8 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
-    'react/react-in-jsx-scope': off,
-    'react/prefer-stateless-function': off,
+    'react/react-in-jsx-scope': 0,
+    'react/prefer-stateless-function': 0,
     'prettier/prettier': [
       'error',
       {
@@ -41,5 +41,19 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-var-requires': 'off',
     'react/jsx-uses-react': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'no-unused-vars': [
+      'error',
+      { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
+    ],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: false,
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
+    ],
+    '@typescript-eslint/no-unused-vars': ['error'],
   },
 };
