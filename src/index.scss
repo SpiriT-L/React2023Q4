@@ -1,0 +1,12 @@
+@import 'Stules/main';
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
